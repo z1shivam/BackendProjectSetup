@@ -5,7 +5,7 @@ const testRouter = Router();
 testRouter
   .route("/")
   .get((req, res) => {
-    res.send("Response From Server");
+    res.send("Response From Server!");
   })
   .post((req, res) => {
     const { username, email } = req.body;
