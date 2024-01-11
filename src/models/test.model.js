@@ -4,6 +4,7 @@ const testSchema = Schema({
   name: {
     type: String,
     required: true,
+    unique: true
   }
 });
 
