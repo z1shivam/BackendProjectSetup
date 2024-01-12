@@ -5,7 +5,15 @@ const testSchema = Schema({
     type: String,
     required: true,
     unique: true
-  }
+  },
+  Age: {
+    type: Number,
+    required: false,
+  },
+  Date: {
+    type: Date,
+    required: false,
+  },
 });
 
 const Test = model("Test", testSchema)
