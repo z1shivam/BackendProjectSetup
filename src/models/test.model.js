@@ -17,3 +17,5 @@ const testSchema = Schema({
 });
 
 const Test = model("Test", testSchema)
+
+export default Test;
